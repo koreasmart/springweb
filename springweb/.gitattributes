@@ -1,0 +1,64 @@
+# --- 기본 규칙 ---
+* text=auto eol=lf
+
+# --- OS별 스크립트 ---
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh  text eol=lf
+
+# --- 코드/설정 파일 ---
+*.java text eol=lf
+*.kt   text eol=lf
+*.xml  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.properties text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# --- 프론트엔드 코드 ---
+*.js   text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+
+# --- Maven 전용 ---
+pom.xml      text eol=lf
+mvnw         text eol=lf
+mvnw.cmd     text eol=crlf
+.settings/** text eol=lf
+
+# --- Gradle 전용 ---
+build.gradle       text eol=lf
+settings.gradle    text eol=lf
+gradlew            text eol=lf
+gradlew.bat        text eol=crlf
+gradle.properties  text eol=lf
+gradle/**          text eol=lf
+
+# --- IDE 파일 ---
+*.iml text eol=lf
+.idea/** text eol=lf
+.project text eol=lf
+.classpath text eol=lf
+
+# --- Git 관리 파일 ---
+.gitattributes text eol=lf
+.gitignore    text eol=lf
+
+# --- 바이너리 파일 (변환 금지) ---
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.jar binary
+*.war binary
+*.ear binary
+*.exe binary
+*.dll binary
+*.class binary
